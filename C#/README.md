@@ -4,9 +4,9 @@
 
 练习使用UserControl和布局。
 
-![](https://github.com/Evan1995/HomeworkCode/raw/master/C%23/pic/1.png)
+![](https://github.com/Evan1995/HomeworkCode/raw/master/C%23/pic/1.PNG)
 
-![](https://github.com/Evan1995/HomeworkCode/raw/master/C%23/pic/2.png)
+![](https://github.com/Evan1995/HomeworkCode/raw/master/C%23/pic/2.PNG)
 
 ## Xamarin
 
