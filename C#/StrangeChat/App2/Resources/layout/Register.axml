@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:id="@+id/LayResTop"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#FF515151">
+        <ImageButton
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnResBack"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp" />
+        <TextView
+            android:text="注册"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleRes"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="13dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:textColor="@android:color/background_light" />
+        <ImageButton
+            android:src="@drawable/uesr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnResMenu"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LayResBot"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCDCDC"
+        android:layout_weight="10"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+            <TextView
+                android:text="    用户名:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textResUser"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center"
+                android:layout_marginRight="3dp" />
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editResUser"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+            <TextView
+                android:text="        密码:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textResPwd"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center"
+                android:layout_marginRight="3dp" />
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editResPwd"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+            <TextView
+                android:text="确认密码:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textResPwdAgn"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center"
+                android:layout_marginRight="3dp" />
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editResPwdAgn"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+        <Button
+            android:text="    确定    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnResEn"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</LinearLayout>

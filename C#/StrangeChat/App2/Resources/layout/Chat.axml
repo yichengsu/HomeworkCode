@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#FF515151">
+        <ImageButton
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBack"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp" />
+        <TextView
+            android:text="Strange Chat"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="13dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:textColor="@android:color/background_light" />
+        <ImageButton
+            android:src="@drawable/uesr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMenu"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <EditText
+        android:inputType="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MsgAll"
+        android:layout_weight="10"
+        android:gravity="left|top"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:ellipsize="none"
+        android:singleLine="false" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:layout_weight="0">
+        <EditText
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Msg"
+            android:layout_weight="1" />
+        <Button
+            android:text="发送"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/send" />
+    </LinearLayout>
+</LinearLayout>
