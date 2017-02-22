@@ -10,14 +10,15 @@
 
 ![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/3.png)
 
-然后点击开机，程序开始运行:
-
-![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/4.png)
-
 点击相应的进程，则可把进程加入就绪队列:
+
+![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/7.png)
+![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/8.png)
+
+当程序执行结束，可点击查看结果按钮查看结果:
 
 ![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/5.png)
 
-当程序执行结束，可点击查看结果按钮查看结果:
+经测试，运行结果均正确。例如0.in的结果0.out:
 
 ![](https://github.com/Evan1995/HomeworkCode/raw/master/OperatingSystem/pic/6.png)
