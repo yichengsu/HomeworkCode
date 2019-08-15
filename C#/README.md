@@ -5,8 +5,8 @@
 练习使用UserControl和布局。
 
 <p align = 'center'>
-  <img src = 'pic/1.png' width = '80%'>
-  <img src = 'pic/2.png' width = '80%'>
+  <img src = 'pic/1.PNG' width = '80%'>
+  <img src = 'pic/2.PNG' width = '80%'>
 </p>
 
 ## Xamarin
